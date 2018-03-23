@@ -1,0 +1,48 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 4em;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  padding-left: 0.5em;
+}
+
+.App-intro {
+  font-size: large;
+  padding-left: 1.7em;
+}
+
+.video-js {
+  margin-left: 3em;
+}
+
+.withPadding {
+  padding-left: 2em;
+  padding-top: 1em;
+}
+
+.videoLink {
+  cursor: pointer;
+  color: blue;
+}
+
+input[type=number] {
+  width: 3em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
