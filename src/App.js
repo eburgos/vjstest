@@ -16,7 +16,7 @@ class App extends Component {
       interval: 30,
       sources: [
         {
-          src: "http://localhost:8000/streams/bipbopall.m3u8",
+          src: window.location.protocol + '//' + window.location.hostname + ":8000/streams/bipbopall.m3u8",
           type: "application/x-mpegURL"
         }
       ],
@@ -93,7 +93,7 @@ class App extends Component {
           <ul>
             <li className="videoLink" onClick={(e) => { 
               this.changeSources([{
-                src: "http://localhost:8000/streams/bipbopall.m3u8",
+                src: window.location.protocol + '//' + window.location.hostname + ":8000/streams/bipbopall.m3u8",
                 type: "application/x-mpegURL"
               }]); 
               e.stopPropagation(); 
